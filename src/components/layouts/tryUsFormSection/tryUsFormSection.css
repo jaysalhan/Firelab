@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+  .tryus_image {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  img.tryus_image {
+    width: 50%;
+    margin-right: 10px;
+  }
+}
+
+/* .tryus_form_section {
+  display: flex;
+} */
+.form_content_container {
+  display: flex;
+}
+
+.tryus_form_section p {
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.tryus_form_section span {
+  color: var(--secondary-text-color);
+}
+
+.tryus_image {
+  width: 50%;
+  margin-right: 20px;
+}

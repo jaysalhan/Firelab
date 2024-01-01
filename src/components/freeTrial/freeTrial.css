@@ -1,0 +1,29 @@
+.free_trial_buttons a {
+  width: 280px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.free_trial_paragraph{
+  width: 60%;
+}
+
+@media (max-width: 768px) {
+  .free_trial_paragraph {
+    width: 100% !important;
+  }
+
+  .free_trial_buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .free_trial_buttons > * {
+    margin: 0 auto;
+  }
+}

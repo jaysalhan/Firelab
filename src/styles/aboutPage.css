@@ -1,0 +1,26 @@
+@media (max-width: 1024px) {
+    .flag_container{
+        display: none;
+    }
+}
+
+.benefits_and_features{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.flag_container{
+    position: absolute;
+    z-index: -1;
+    left: -135px;
+    top: -160px;
+}
+
+.table_container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}

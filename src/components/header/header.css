@@ -1,0 +1,27 @@
+.main-nav{
+    margin-bottom: 0;
+    /*border-bottom: solid .25em var(--secondary-text-color);*/
+}
+
+.main-nav-menu{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main-nav-menu > .nav-link{
+    margin: 0 0.75em;
+}
+
+.main-nav-menu > .nav-link:hover{
+    color: var(--secondary-text-color);
+}
+
+.main-nav-menu > .nav-link.active{
+    color: var(--secondary-text-color);
+}
+
+@media (max-width: 576px) {
+
+}

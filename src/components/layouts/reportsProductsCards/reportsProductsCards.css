@@ -1,0 +1,25 @@
+.cards-container {
+  background-color: var(--primary-background-color);
+  border-radius: 15px;
+  color: var(--primary-text-color);
+  padding: 0px 25px;
+}
+
+.products-image {
+  padding: 0px 35px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.products-image.cover {
+  padding: 0px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.products-title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: larger;
+}

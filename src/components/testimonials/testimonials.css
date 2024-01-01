@@ -1,0 +1,23 @@
+.testimonial_text{
+    border-top: solid 1px lightgray;
+    z-index: 1000;
+}
+
+.quote_mark{
+    width: 48px;
+    height: 36px;
+    display: block;
+    margin-left: auto;
+    margin-right: 2rem;
+    transform: translateY(50%);
+    z-index: 10001;
+    background-color: white;
+}
+
+
+
+@media (max-width: 576px) {
+    /*.slide_page .custom_slide:nth-child(even){
+        display: none;
+    }*/
+}

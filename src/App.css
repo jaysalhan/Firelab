@@ -1,0 +1,30 @@
+.main-container {
+  color: var(--primary-text-color);
+}
+
+.highlight {
+  color: var(--secondary-text-color);
+}
+
+.bg-highlight {
+  background-color: var(--secondary-text-color) !important;
+  border: none !important;
+}
+
+.bg-first {
+  background-color: var(--primary-text-color) !important;
+  border: none !important;
+}
+
+.bg-third {
+  background-color: var(--third-text-color) !important;
+  border: none !important;
+}
+
+.color-main {
+  color: var(--primary-text-color);
+}
+
+.color-white {
+  color: var(--white-text-color);
+}

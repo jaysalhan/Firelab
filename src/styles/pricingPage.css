@@ -1,0 +1,16 @@
+.most-popular {
+  background-color: var(--yellow-text-color);
+}
+
+.no-most-popular {
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.check {
+  color: #A0E885;
+}
+
+.close {
+  color: #EB4539;
+}

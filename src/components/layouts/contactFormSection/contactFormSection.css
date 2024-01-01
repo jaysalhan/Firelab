@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+  .contact_form_image {
+    display: none;
+  }
+
+  .contact_form_container {
+    width: 100%;
+  }
+}
+
+.contact_form_section {
+  display: flex;
+}
+
+.contact_form_image {
+  width: 30%;
+  margin-right: 50px;
+}

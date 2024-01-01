@@ -1,0 +1,10 @@
+.video_component{
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    border: solid .75em white;
+}
+
+@media (max-width: 576px) {
+    .video_component{
+        border: solid .25em white;
+    }
+}

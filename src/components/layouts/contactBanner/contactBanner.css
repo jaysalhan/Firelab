@@ -1,0 +1,14 @@
+.contact_banner_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+}
+
+.contact_title span {
+  color: var(--secondary-text-color);
+}
+
+.contact_text span {
+  color: var(--secondary-text-color);
+}

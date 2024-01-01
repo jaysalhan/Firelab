@@ -1,0 +1,16 @@
+.line_border{
+    position: absolute;
+    transform: translateX(-3rem) translateY(-15rem);
+}
+
+@media (max-width: 1200px) {
+    .line_border {
+        transform: translateX(-.5rem) translateY(-5rem);
+    }
+}
+
+@media (max-width: 576px) {
+    .line_border {
+        display: none;
+    }
+}

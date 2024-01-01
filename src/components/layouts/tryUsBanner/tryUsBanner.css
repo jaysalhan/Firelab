@@ -1,0 +1,9 @@
+.tryus_banner_text {
+  display: flex;
+  align-items: center;
+  text-align: start;
+}
+
+.tryus_title span {
+  color: var(--secondary-text-color);
+}

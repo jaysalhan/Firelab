@@ -1,0 +1,14 @@
+.col-sm-6 {
+  margin-bottom: 20px;
+}
+
+.corner-patch {
+  width: 30px;
+  height: 30px;
+  background: red;
+  position: relative;
+  border-radius: 6px;
+  top: 25px;
+  right: 5px;
+  z-index: -1;
+}
