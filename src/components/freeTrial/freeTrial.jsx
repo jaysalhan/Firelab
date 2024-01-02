@@ -14,7 +14,7 @@ function FreeTrial({
   return (
     <SectionLayout {...props}>
       <FreeTrialTitle hasLink={hasLink} link={link} isBigSized={isBigSized} />
-      <p className='mt-2 text-capitalize fs-xl fw-bold'>Risk free, no credit card required.</p>
+      <p className='mt-4 text-capitalize fs-xl fw-bold'>Risk free, no credit card required.</p>
       <FreeTrialLinks />
     </SectionLayout>
   );

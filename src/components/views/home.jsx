@@ -11,6 +11,7 @@ import ImageWebP from '../imageWebP/imageWebP';
 import coverBg from '../../assets/bgs/cover-bg.jpg';
 import coverBgWebP from '../../assets/bgs/cover-bg.webp';
 
+import { Accordion, Card, Button } from 'react-bootstrap';
 import '../../styles/homePage.css'
 
 import { 
@@ -26,6 +27,7 @@ import {
 import Article from '../article/article';
 import Testimonials from '../testimonials/testimonials';
 import InvestmentCalculator from '../investmentCalculator/investmentCalculator';
+
 
 const whyAriesList = WHY_ARIES_CARDS.map((card) => {
   const imageImport = require(`../../assets/icons/${card.icon}`);
@@ -80,7 +82,9 @@ const calculatorData = CALCULATOR_STEPS.map( step => {
 
 
 
+
 function Home() {
+
     return (
       <MainLayout>
         {/* MAIN COVER */}
@@ -95,13 +99,14 @@ function Home() {
               alt="Background Cover Image"
             />
             <section className='cover-text'>
-              <h2 className='fw-bold mt-4 text-white display-4 text-uppercase'>
+              <h2 className='fw-bold mt-3 text-white display-4 text-uppercase'>
                 Inspection.&nbsp; testing.&nbsp; maintenance.
               </h2>
-              <p className='cover-caption mx-auto text-white fs-xxl'>
+              {/* <p className='cover-caption mx-auto text-white fs-xxl'>
                 One Software Platform To Run Your Entire<br />
                 Fire Life Safety Business.
-              </p>
+              </p> */}
+              <h1 className='cover-caption mx-auto text-white fs-xxl'>One Fire Inspection Software Platform To Run Your Entire<br /> Fire Life Safety Business.</h1>
             </section>
           </div>          
         </SectionLayout>
@@ -124,7 +129,9 @@ function Home() {
 
         {/* WHY ARIES */}
         <SectionLayout>
-          <h2 className='heading_lines display-2 fw-bold'>Why Aries</h2>
+          {/* <h2 className='heading_lines display-2 fw-bold'>Why Aries</h2> */}
+          <h2 className='heading_lines display-4 fw-bold'>Why Choose Aries For Your Fire <br />Inspection Software</h2>
+           
           <Row>
             {
               whyAriesList.map((card, index) => {
@@ -143,12 +150,44 @@ function Home() {
           </Row>
         </SectionLayout>
 
+
+      <SectionLayout>
+      <h2 className='heading_lines display-4 fw-bold'>What Sets Our Fire Alarm Inspection <br />Software Apart</h2>
+      <div className="feature-list mt-5">
+      <ul>
+        <li>
+          <div className='mb-4'>
+            <b>Comprehensive Inspection Coverage:</b> Our software covers 17 different report categories, including a Quote form for sales and a Work Order form for repairs.
+          </div>
+          <div className='mb-4'>
+            <b>User-Friendly Reporting:</b> Aries doesn't require extensive training. Even non-technical users can easily create and understand comprehensive inspection reports.
+          </div>
+          <div className='mb-4'>
+            <b>Mobile Accessibility:</b> Inspectors can use our software in the field on any device type, not limited to a specific platform.
+          </div>
+          <div className='mb-4'>
+            <b>Customization Options:</b> Predefined checklists for ease of use, with the flexibility to tailor inspection questions to match specific needs and standards.
+          </div>
+          <div className='mb-4'>
+            <b>Compliance:</b> Reports are NFPA and Joint Commission compliant, strictly based on NFPA standards. Adopts all Joint Commission requirements for compliance.
+          </div>
+          <div className='mb-4'>
+            <b>Precise Inspection and Testing:</b> Built specifically for fire protection companies, our platform is ready to use without the need for extensive tweaking.
+          </div>
+        </li>
+      </ul>
+      </div>
+      </SectionLayout>
+
+
+
+
         {/* RETURN ON INVESTMENT CALCULATOR */}
         <SectionLayout>
             <Row>
               <Col xs={12} lg={5} className='text-start d-flex align-items-center'>
                 <h2 className='display-5 fw-bold'>
-                  See How
+                See How Aries fire inspection software
                   <span className='highlight'> Aries </span> 
                   Can Save You Money
                 </h2>
@@ -169,7 +208,7 @@ function Home() {
           <h2 className='heading_lines display-2 fw-bold'>
             How
             <span className='highlight'> Aries </span> 
-            Works
+            fire inspection <br />Software Works
           </h2>
           <Row className='mt-2'>
             {howWeDoList.map((card, index) => {
@@ -212,9 +251,58 @@ function Home() {
           />
         </SectionLayout>
 
+
         <FreeTrialLarge 
           paragraph={LAST_FREE_TRIAL_PARAGRAPH} 
         />
+
+
+        <SectionLayout>
+        <Accordion defaultActiveKey="0">
+          <Accordion.Item eventKey="0">
+            <Accordion.Header><h5>Q1: What is fire inspection software?</h5></Accordion.Header>
+            <Accordion.Body>
+            <p style={{textAlign: 'left'}}>Fire inspection software is a digital tool designed to streamline and organize the process of conducting fire safety inspections, preparing sales quotes, and making repairs to fire life safety systems.  It provides inspection reminders, tracks inventory and timesheets, as well as manages deficiencies.  It also monitors inventory in the warehouse and on your vehicles.</p>
+            </Accordion.Body>
+          </Accordion.Item>
+    
+          <Accordion.Item eventKey="1">
+            <Accordion.Header><h5>Q2: Why is fire inspection software essential for businesses?</h5></Accordion.Header>
+            <Accordion.Body>
+            <p style={{textAlign: 'left'}}>Fire inspection software is essential for businesses who ensure compliance with safety regulations because we provide the rails for compliance.  Using Aries will reduce errors made by techs, prevent incomplete data on reports, and give you the peace of mind that each inspection you perform meets regulatory standards.</p>
+            </Accordion.Body>
+          </Accordion.Item>
+    
+          <Accordion.Item eventKey="2">
+            <Accordion.Header><h5>Q3: What features should I look for in the best fire inspection software?</h5></Accordion.Header>
+            <Accordion.Body>
+            <p style={{textAlign: 'left'}}>The best fire inspection software should work on any mobile device, it should work with or without Internet or cellular connection, and it should be made by fire protection experts.</p>
+            </Accordion.Body>
+          </Accordion.Item>
+    
+          <Accordion.Item eventKey="3">
+            <Accordion.Header><h5>Q4: How can fire alarm inspection software benefit my organization?</h5></Accordion.Header>
+            <Accordion.Body>
+            <p style={{textAlign: 'left'}}>Fire alarm inspection software will benefit your organization in many ways.  But there are two benefits that rise above the others.  The first, is that will make sure that your techs are performing their inspections correctly.  The second, is that it will generate more monthly income for your company.</p>
+            </Accordion.Body>
+          </Accordion.Item>
+    
+          <Accordion.Item eventKey="4">
+            <Accordion.Header><h5>Q5: What is the advantage of using fire extinguisher inspection software?</h5></Accordion.Header>
+            <Accordion.Body>
+            <p style={{textAlign: 'left'}}>Fire extinguisher inspection software simplifies the inspection process and reduces the data entry time to complete reports.</p>
+            </Accordion.Body>
+          </Accordion.Item>
+    
+          <Accordion.Item eventKey="5">
+            <Accordion.Header><h5>Q6: How can fire sprinkler inspection software help maintain safety?</h5></Accordion.Header>
+            <Accordion.Body>
+            <p style={{textAlign: 'left'}}>Fire sprinkler inspection software facilitates Inspections, Testing, and Maintenance by establishing routine tests and repairs, to maintain operational status of these systems.  Aries won’t let you forget an inspection or a repair that needs to be made for any of your customers.</p>
+            </Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
+        </SectionLayout>
+
       </MainLayout>
     );
 }

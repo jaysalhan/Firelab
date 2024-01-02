@@ -17,6 +17,7 @@ import livechatIcon from "../../../assets/icons/live-chat.png";
 import timeIcon from "../../../assets/icons/time-icon.png";
 import CONSTANTS from "../../../constants/generals";
 import { useState } from "react";
+import FancyLink from "../../fancyLink";
 
 function ContactForm() {
   const [loading, setLoading] = useState(false);
@@ -140,9 +141,16 @@ function ContactForm() {
             <p>Live Chat</p>
           </div>]*/}
           <div>
-            <Image src={callIcon} alt="call-icon" width={44} height={44} />
-            <p>1-800-579-8710</p>
+            {/* <Image src={callIcon} alt="call-icon" width={44} height={44} /> */}
+            {/* <p>1-800-579-8710</p> */}
+            <FancyLink
+              icon={callIcon}
+              text='Call at 1-800-579-8710'
+              link={'tel:1-800-579-8710'}
+              smallText={true}
+            />
           </div>
+
           <div>
             <Image src={timeIcon} alt="time-iconC" width={44} height={44} />
             <p>Mon - Fri 9am - 5pm EST</p>

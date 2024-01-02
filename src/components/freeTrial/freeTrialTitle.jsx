@@ -14,7 +14,7 @@ function FreeTrialTitle({
       ) : (
         <span className='highlight'> Free Trial </span>
       )}{' '}
-      Today.
+      Today <br /> <small style={{fontSize: 22}}>See The Difference By Using One Of The Best Fire Inspection Softwares On The Market.</small>
     </h2>
   );
 }

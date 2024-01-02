@@ -38,25 +38,26 @@ module.exports = {
   REPORTS_WORK_ORDER:
     "Aries Work Order form can be created and filled in two different methods. It can be created and filled automatically when a customer accepts a quote. It can also be created manually for any service calls or repairs.",
   FREE_TRIAL_PARAGRAPH:
-    "Have vou missed opportunities to upsell your customers? Have your techs made avoidable mistakes? Aries can help with those problems and many more. Click below to start a free trial or request a demo. Do it now, it will be the best business decision vou've ever made.",
+    "Have you missed opportunities to upsell your customers? Have your techs made avoidable mistakes? Aries' fire alarm inspection software can help you with those problems and many more. Click below to start a free trial or request a demo. Do it now, it will be the best business decision you've ever made.",
+
   LAST_FREE_TRIAL_PARAGRAPH:
     "Are you ready to take the first step in maximizing your company's full earning potential? Click the free trial button now. Don't hesitate to get started. your competition isn't.",
   WHY_ARIES_CARDS: [
     {
       icon: "why-aries-icon-1.png",
-      paragraph: "You need software tailored to your industry. Aries was designed specifically for fire protection companies."
+      paragraph: "You need software tailored to your industry. Aries fire alarm inspection software was designed specifically for fire protection companies."
     },
     {
       icon: "why-aries-icon-2.png",
-      paragraph: "You're tired of using many different pieces of software to run vour business. Aries combines them all into one."
+      paragraph: "You're tired of using many different pieces of fire sprinkler inspection software to run your business. Aries combines them all into one."
     },
     {
       icon: "why-aries-icon-3.png",
-      paragraph: "You don't want to be limited on what mobile devices you can use. Aries can be used on Apple, Android, and Windows."
+      paragraph: "You don't want to be limited on what mobile devices you can use. Aries fire safety inspection software can be used on Apple, Android, and Windows."
     },
     {
       icon: "why-aries-icon-4.png",
-      paragraph: "You don't want your software to cost you money. Aries will not only pay for itself, but it will also increase your profits."
+      paragraph: "You don't want your fire inspection reporting software to cost you money. Aries will not only pay for itself, but it will also increase your profits."
     }
   ],
   PROBLEMS_LIST: [
@@ -103,7 +104,7 @@ module.exports = {
   HOME_ARTICLES: [
     {
       title: 'Fire Inspection Software',
-      paragraph: 'Aries Fire Software is a cloud-based software platform that allows you to run your entire fire life safety business. From inspections and testing to maintenance and reporting, Aries Fire Software is the most comprehensive solution on the market.',
+      paragraph: 'Aries fire inspection software is a cloud-based software platform that allows you to run your entire fire life safety business. From inspections and testing to quotes and repairs, Aries is the most comprehensive fire inspection software on the market.',
       image: 'inspection-software.png',
       imageAlt: 'Fire Inspection Software',
       inversedOrder: false,
@@ -125,8 +126,8 @@ module.exports = {
       photo: 'client-photo.png',
       company: 'University of Arizona',
       paragraphs: [
-        "We spent six months looking for a feature filled, cost effective, and cloud based software.  It needed to work on Windows, Android, and Apple products to assist us with inspecting our fire detection, notification, and suppression systems.  One of our biggest challenges with finding a good software solution is the sheer size and complexity of our systems, our campus has the largest fire alarm network in the world.",
-        "The Aries product from FireLab and the support we have received from Rich Oldenburg and his team has met all of our unique needs."
+        "We spent six months looking for a feature filled, cost effective, and cloud based fire alarm inspection software. It needed to work on Windows, Android, and Apple products to assist us with inspecting our fire detection, notification, and suppression systems. One of our biggest challenges with finding a good software solution is the sheer size and complexity of our systems, our campus has the largest fire alarm network in the world.",
+        "The Aries fire alarm test and inspection software from FireLab and the support we have received from Rich Oldenburg and his team has met all of our unique needs."
       ]
     },
     {
@@ -135,7 +136,7 @@ module.exports = {
       photo: 'client-photo.png',
       company: 'Code-3 Fire Safety',
       paragraphs: [
-        "I’m writing with enthusiasm to recommend the services of FireLab. Our Company has been using the Aries software provided by FireLab for years. We have utilized every tool the software offers, in order to keep track of our services due, and keep complete record of services rendered. Aries is user friendly, especially from the technician's stand point.  It generates reports for our customers that simplifies the fire protection process and records all services performed, making it easy for our clients to keep thorough documentation. The reports and data that Aries provides sets us apart from all our competition.",
+        "I’m writing with enthusiasm to recommend the services of FireLab. Our Company has been using the Aries fire extinguisher  inspection software provided by FireLab for years. We have utilized every tool the software offers, in order to keep track of our services due, and keep a complete record of services rendered. Aries is user friendly, especially from the technician's stand point. It generates reports for our customers that simplifies the fire protection process and records all services performed, making it easy for our clients to keep thorough documentation. The reports and data that Aries provides sets us apart from all our competition.",
         "We find the company to be of great value and a powerful asset. I'm happy to recommend the software of FireLab."
       ] 
     },
