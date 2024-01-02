@@ -30,7 +30,7 @@ function Article({
   return (
     <SectionLayout>
       <Row className="align-items-center">
-        {order == 1 && (
+        {order === 1 && (
           <>
             <Col xs={12} md={6}>
               <Card className="border-0">
@@ -51,7 +51,7 @@ function Article({
           </>
         )}
 
-        {order == 2 && (
+        {order === 2 && (
           <>
             <Col xs={12} md={6} className="text-start">
               <h2 className="fancy_title display-4 fw-bold">

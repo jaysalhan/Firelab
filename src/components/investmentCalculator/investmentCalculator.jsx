@@ -39,7 +39,7 @@ function InvestmentCalculator({
     const nextInput = document.getElementById(thisStep)
     console.log(nextInput)
     setCurrentStep( thisStep );
-    if (thisStep == steps.length) {
+    if (thisStep === steps.length) {
       setBtnText('Calculate');
     }
     if(thisStep > steps.length) {
