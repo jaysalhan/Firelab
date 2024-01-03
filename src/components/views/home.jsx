@@ -149,38 +149,52 @@ function Home() {
             }
           </Row>
         </SectionLayout>
-
-
-      <SectionLayout>
-      <h2 className='heading_lines display-4 fw-bold'>What Sets Our Fire Alarm Inspection <br />Software Apart</h2>
-      <div className="feature-list mt-5">
-      <ul>
-        <li>
-          <div className='mb-4'>
-            <b>Comprehensive Inspection Coverage:</b> Our software covers 17 different report categories, including a Quote form for sales and a Work Order form for repairs.
-          </div>
-          <div className='mb-4'>
-            <b>User-Friendly Reporting:</b> Aries doesn't require extensive training. Even non-technical users can easily create and understand comprehensive inspection reports.
-          </div>
-          <div className='mb-4'>
-            <b>Mobile Accessibility:</b> Inspectors can use our software in the field on any device type, not limited to a specific platform.
-          </div>
-          <div className='mb-4'>
-            <b>Customization Options:</b> Predefined checklists for ease of use, with the flexibility to tailor inspection questions to match specific needs and standards.
-          </div>
-          <div className='mb-4'>
-            <b>Compliance:</b> Reports are NFPA and Joint Commission compliant, strictly based on NFPA standards. Adopts all Joint Commission requirements for compliance.
-          </div>
-          <div className='mb-4'>
-            <b>Precise Inspection and Testing:</b> Built specifically for fire protection companies, our platform is ready to use without the need for extensive tweaking.
-          </div>
-        </li>
-      </ul>
+     
+      <div className='feature-col'>
+         <SectionLayout>
+            <h2 className='heading_lines display-4 fw-bold'>What Sets Our Fire Alarm Inspection <br />Software Apart</h2>
+            <div className="feature-list mt-5">
+              <div className='row'>
+                <div className='col-lg-4 col-sm-6'>
+                    <div className='ctnt'>
+                      <h5>Comprehensive Inspection Coverage</h5>
+                      <p>Our software covers 17 different report categories, including a Quote form for sales and a Work Order form for repairs.</p>
+                    </div>
+                </div>
+                <div className='col-lg-4 col-sm-6'>
+                    <div className='ctnt'>
+                      <h5>User-Friendly Reporting</h5>
+                      <p>Aries doesn't require extensive training. Even non-technical users can easily create and understand comprehensive inspection reports.</p>
+                    </div>
+                </div>
+                <div className='col-lg-4 col-sm-6'>
+                    <div className='ctnt'>
+                      <h5>Mobile Accessibility</h5>
+                      <p>Inspectors can use our software in the field on any device type, not limited to a specific platform.</p>
+                    </div>
+                </div>
+                <div className='col-lg-4 col-sm-6'>
+                    <div className='ctnt'>
+                      <h5>Customization Options</h5>
+                      <p>Predefined checklists for ease of use, with the flexibility to tailor inspection questions to match specific needs and standards.</p>
+                    </div>
+                </div>
+                <div className='col-lg-4 col-sm-6'>
+                    <div className='ctnt'>
+                      <h5>Compliance</h5>
+                      <p>Reports are NFPA and Joint Commission compliant, strictly based on NFPA standards. Adopts all Joint Commission requirements for compliance.</p>
+                    </div>
+                </div>
+                <div className='col-lg-4 col-sm-6'>
+                    <div className='ctnt'>
+                      <h5>Precise Inspection and Testing</h5>
+                      <p>Built specifically for fire protection companies, our platform is ready to use without the need for extensive tweaking.</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </SectionLayout>
       </div>
-      </SectionLayout>
-
-
-
 
         {/* RETURN ON INVESTMENT CALCULATOR */}
         <SectionLayout>
