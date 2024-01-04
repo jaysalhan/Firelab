@@ -201,8 +201,7 @@ function Home() {
             <Row>
               <Col xs={12} lg={5} className='text-start d-flex align-items-center'>
                 <h2 className='display-5 fw-bold'>
-                See How Aries fire inspection software
-                  <span className='highlight'> Aries </span> 
+                See How <span className='highlight'>Aries</span> fire inspection software                
                   Can Save You Money
                 </h2>
               </Col>
