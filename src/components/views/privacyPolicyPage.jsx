@@ -1,9 +1,14 @@
 import MainLayout from "../layouts/mainLayout";
 import SectionLayout from "../layouts/sectionLayout";
+import {Helmet} from "react-helmet";
 
 function PrivacyPolicyPage() {
   return (
     <MainLayout style={{ fontSize: '15px' }}>
+    <Helmet>
+      <link rel="canonical" href="https://www.firelabinc.com/privacy-policy" />
+    </Helmet>
+
       {/* Title */}
       <SectionLayout>
         <h1 className="display-4 fw-bold">

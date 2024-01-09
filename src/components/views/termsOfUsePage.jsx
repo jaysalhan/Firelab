@@ -1,9 +1,13 @@
 import MainLayout from '../layouts/mainLayout';
 import SectionLayout from '../layouts/sectionLayout';
+import {Helmet} from "react-helmet";
 
 function TermsOfUsePage() {
   return (
     <MainLayout style={{ fontSize: '15px' }}>
+    <Helmet>
+      <link rel="canonical" href="https://www.firelabinc.com/terms-of-use" />
+    </Helmet>
       {/* Title */}
       <SectionLayout>
         <h1 className='display-4 fw-bold'>TERMS OF USE <span className='highlight'>AGREEMENT</span></h1>

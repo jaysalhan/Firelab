@@ -27,7 +27,7 @@ import {
 import Article from '../article/article';
 import Testimonials from '../testimonials/testimonials';
 import InvestmentCalculator from '../investmentCalculator/investmentCalculator';
-
+import {Helmet} from "react-helmet";
 
 const whyAriesList = WHY_ARIES_CARDS.map((card) => {
   const imageImport = require(`../../assets/icons/${card.icon}`);
@@ -88,6 +88,10 @@ function Home() {
     return (
       <MainLayout>
         {/* MAIN COVER */}
+        <Helmet>
+          <link rel="canonical" href="https://www.firelabinc.com" />
+        </Helmet>
+
         <SectionLayout
           hasMarginTop={false}
         >

@@ -1,9 +1,13 @@
 import MainLayout from "../layouts/mainLayout";
 import SectionLayout from "../layouts/sectionLayout";
+import {Helmet} from "react-helmet";
 
 function SubscriptionAgreement() {
   return (
     <MainLayout style={{ fontSize: '15px' }}>
+    <Helmet>
+      <link rel="canonical" href="https://www.firelabinc.com/master-subscription-agreement" />
+    </Helmet>
       <SectionLayout>
         <h1 className="display-4 fw-bold">
           MASTER SUBSCRIPTION <span className="highlight">AGREEMENT</span>

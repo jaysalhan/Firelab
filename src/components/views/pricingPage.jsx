@@ -11,6 +11,7 @@ import subscriptionRocketWebP from '../../assets/pricing/Subscription.webp';
 import '../../styles/pricingPage.css';
 import SectionLayout from '../layouts/sectionLayout';
 import ImageWebP from '../imageWebP/imageWebP';
+import {Helmet} from "react-helmet";
 
 const { SPARK, FLAME, BLAZE } = PLANS;
 
@@ -70,6 +71,10 @@ function PricingPage() {
 
     return (
       <MainLayout>
+      <Helmet>
+        <link rel="canonical" href="https://www.firelabinc.com/pricing" />
+      </Helmet>
+
         {/* Section 1 */}
         <SectionLayout className='text-md-start text-sm-center'>
           <Row className='align-items-center'>

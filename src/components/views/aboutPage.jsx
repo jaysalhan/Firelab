@@ -16,6 +16,8 @@ import aboutFeaturesFlag from '../../assets/about/features-flag.png';
 import aboutFeaturesFlagWebP from '../../assets/about/features-flag.webp';
 import SectionLayout from '../layouts/sectionLayout';
 import ImageWebP from '../imageWebP/imageWebP';
+import {Helmet} from "react-helmet";
+
 
 const howWeDoIt = [
   { title: 'Customizable Reports', description: 'Have The Report You Want' },
@@ -61,6 +63,10 @@ function AboutPage() {
     return (
       <MainLayout>
         {/* Section 1 */}
+       <Helmet>
+         <link rel="canonical" href="https://www.firelabinc.com/about" />
+       </Helmet>
+
         <SectionLayout className='text-md-start text-sm-center'>
           <Row className='align-items-center'>
             <Col xs={12} md={6}>
